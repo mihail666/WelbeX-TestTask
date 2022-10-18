@@ -1,0 +1,14 @@
+.v-table-item {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px #e7e7e7;
+  padding: 10px 0px;
+  &__el{
+    flex-basis: 25%;
+    padding: 30px 10px;
+    font-size: 16px;
+    text-align:center;
+    border-left: solid 1px #e7e7e7;
+    border-right: solid 1px #e7e7e7;
+  }
+}

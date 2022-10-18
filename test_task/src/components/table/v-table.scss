@@ -1,0 +1,52 @@
+.v-table{
+  width: 900px;
+  margin: 0 auto;
+  
+  &__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__header{
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px #818181;
+  }
+  &__header p {
+    flex-basis: 25%;
+    padding: 20px 0;
+    text-align: center;
+    border-left: solid 1px #818181;
+  }
+  &__pagination{
+    max-width: 400px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
+}
+
+.page{
+  padding: 10px;
+  margin: 0 auto;
+  border: solid 1px #000;
+  cursor: pointer;
+  &:hover{
+    background: rgb(91, 91, 91);
+    color: #fff;
+  }
+  &__celected{
+    background: rgb(91, 91, 91);
+    color: #fff;
+  }
+}
+
+.v-table h1{
+  padding: 50px;
+  font-size: 60px;
+  font-weight: 600;
+}
